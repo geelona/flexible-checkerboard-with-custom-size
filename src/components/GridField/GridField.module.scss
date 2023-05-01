@@ -1,10 +1,10 @@
 .GridField {
-  background-color: pink;
+  background-color: lightgreen;
   display: grid;
   position: relative;
   width: 600px;
   height: 600px;
-  border: 5px solid black;
+  border: 10px solid black;
   border-radius: 10px;
   overflow: hidden;
   .GridItem {
@@ -13,7 +13,7 @@
     align-items: center;
     border: 5px solid black;
   }
-  // .GridItem:nth-of-type(even) {
-  //   // background-color: gray;
-  // }
+  .GridItem:nth-of-type(even) {
+    background-color: pink;
+  }
 }
